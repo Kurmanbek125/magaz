@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(238, 234, 234);
+}
+.top-block{
+    width: 100%;
+    height: 70px;
+    background: rgb(40, 39, 39);
+    display: flex;
+}
+.left-text-tb{
+    width: 200px;
+    height: 100%;
+    background: brown;
+    color: white;
+    font-family: geneva;
+    padding-left: 30px;
+    border: 0 5 0 0 gray;
+    font-size: 18px;
+}
+
+.right-icon-tb{
+    width: 55px;
+    height: 55px;
+    margin-top: 8px;
+    background: rgb(21, 180, 23);
+    border-radius: 15px;
+    margin-left: 1130px;
+    box-shadow: 0px 2px 2px 2px green;
+    background-image: url(/Imgs/corzina-icon.jpg);
+    background-size: 95%;
+}
+
+.hrefs{
+    height: 100px;
+    width: 100%;
+    background: rgb(233, 226, 226);
+    display: flex;
+}
+.left-blog-hrefs{
+    width: 33%;
+    height: 100%;
+    background: white;
+}
+.center-blog-hrefs{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 34%;
+    height: 100%;
+    background: white;
+    text-align: center;
+    font-family: geneva;
+    font-size: 20px;
+}
+.right-blog-hrefs{
+    width: 33%;
+    height: 100%;
+    background: white;
+    display: flex;
+
+}
+
+.btn-1{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(134, 226, 101);
+    border-radius: 50px;
+    margin: 20px;
+
+}
+
+.search-icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 150px;
+    background-size: 100%;
+    background-image: url(/Imgs/622669.png);
+    /* margin-left: 900px; */
+
+}
+.order-icon{
+    width: 25px;
+    height: 25px;
+    margin-top: 38px;
+    background-size: 100%;
+    background-image: url(/Imgs/5643784.png);
+    margin-left: 30px;
+}
+
+.headers{
+    flex-wrap: wrap;
+}
+.head1{
+    display: flex;
+    margin-bottom: 10px;
+}
+.corimg{
+    background-image: url(/Imgs/corzina.jpg);
+    width: 495px;
+    height: 720px;
+    background-size: 100%;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.head-left{
+    width: 30%;
+    height: 800px;
+    background: blue;
+}
+.head-right{
+    width: 70%;
+    height: 800px;
+    background: aqua;
+}
+.text-1{
+    color: rgb(18, 108, 169);
+    font-family: geneva;
+    font-size: large;
+    width: 550px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 250px;
+    
+}
+
+.head2{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.h2-img1{
+    width: 33%;
+    margin: 5px;
+    margin-left: 10px;
+    height: 380px;
+    background-image: url(/Imgs/cross1.webp);
+    background-size: contain;
+}
+.h2-img2{
+    width: 32%;
+    margin: 5px;
+    height: 380px;
+    background-image: url(/Imgs/airpods.webp);
+    background-size: contain;
+}
+.h2-img3{
+    width: 32%;
+    margin: 5px;
+    height: 380px;
+    background-image: url(/Imgs/domino.webp);
+    background-size: contain;
+}
+.head3{
+    background: rgb(255, 255, 255);
+}
+
+.head3-blocks{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Geneva;
+}
+.head3-blocks2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-family: geneva;
+}
+
+.bigphoto{
+    width: 100%;
+    height: 474px;
+    background-image: url(/Imgs/bigphoto.png);
+    background-size: contain;
+}
+.head4{
+    background: white;
+}
+.head4-blocks{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background: rgb(251, 251, 251);
+    padding-top: 140px;
+    justify-content: space-around;
+}
+.flutter{
+    width: 100%;
+    height: 640px;
+    background: rgb(20, 30, 80);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.flut1{
+    width: 18%;
+    height: 300px;
+    color: gray;
+}
+.flut2{
+    width: 15%;
+    padding-top: 10px;
+    margin-left: -140px;
+}
+.flut3{
+    margin-left: -120px;
+    padding-top: 10px;
+}
+.flut4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.whatsapp-button {
+    margin-left: -100px;
+    margin-top: 75px;
+    right: 0px;
+    bottom: 9px;
+    transform: translate(-50%, -50%);
+    background: #25D366; 
+    border-radius: 50%;
+    width: 75px; 
+    height: 75px; 
+    color: rgb(46, 32, 107);
+    text-align: center;
+    
+    font-size: 35px; /*размер иконки*/
+    /* z-index: 9999; */
+ }
+.whatsapp-button a {
+    color: #fff;
+}
+.whatsapp-button:before,
+.whatsapp-button:after {
+    background-image: url(/Imgs/whatsapp.jpg);
+    background-size: 100%;
+    
+    content: " ";  
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #25d365c4; 
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border-radius: 30%;
+    animation: animate 2.5s linear infinite;
+    opacity: 0;
+    backface-visibility:visible; 
+}
+ 
+.whatsapp-button:after{
+    animation-delay: .1s;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+.address{
+    margin: 100px;
+    box-shadow: 1px 3px 5px 2px blue;
+    position: relative;
+    border-radius: 20px;
+}
